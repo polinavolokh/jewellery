@@ -50,3 +50,14 @@ nav{
     filter: blur(10px);
     background: url('cosmos.jpg');
 }
+
+h1{
+position: absolute;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 160px;
+line-height: 156px;
+letter-spacing: 0.55em;
+color: #2C3930;
+}
