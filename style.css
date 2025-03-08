@@ -1,14 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
+
+
 body{
-    font-family: Inter;
+    font-family: Montserrat;
     padding: 0;
     margin: 0;
 }
 
 header{
     display: flex;
-    background-color: #83728e;
+    background-color: #484a8e;
     justify-content: space-between;
     align-items: center;
     padding-right: 47px;
@@ -29,20 +31,65 @@ nav{
     display: flex;
     align-items: center;
     gap: 28px;
-    border-left: 9px solid #D9D9D9;
+    border-left: 9px solid #5b6aba;
     padding-left: 10px;
 }
 
+.neck{
+    position: absolute;
+    bottom: 500px;
+    left:00px;
+}
+
+.neck1{
+    position: absolute;
+    bottom: 400px;
+    left: 300px;   
+}
+
+.neck2{
+    position: absolute;
+    bottom: 400px;
+    left: 600px;   
+}
+
+.neck3{
+    position: absolute;
+    bottom: 400px;
+    left: 900px;  
+}
+
+.neck4{
+    position: absolute;
+    bottom: 400px;
+    left: 1200px;
+}
+
+.neck5{
+    position: absolute;
+    bottom: 500px;
+    left: 1400px;
+}
+
+.text0{
+    text-align: center;
+    font-size: 50px;
+    text-transform:uppercase;
+    background-color: rgba(146, 165, 234, 0.5);
+}
+
+
+
 .link{
     text-decoration: none;
-    color: #727D73;
-    background-color: #D9D9D9;
+    color: #d2d5ea;
+    background-color: #5c67a4;
     padding: 18px 31px ;
     border-radius: 80px;
     box-shadow: 0px 4px 4px 0 rgb(0, 0, 0, 0.51);
 }
 
-.bottom_div{
+ .bottom_div{
     position: absolute;
     bottom:0;
     width: 100%;
@@ -51,13 +98,105 @@ nav{
     background: url('cosmos.jpg');
 }
 
-h1{
-position: absolute;
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 600;
-font-size: 160px;
-line-height: 156px;
-letter-spacing: 0.55em;
-color: #2C3930;
+.div3{
+    position: relative;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 120px;
+    line-height: 110px;
+    letter-spacing: 0.25em;
+    color: #ffffff;
+    width: 100%;
 }
+
+
+
+
+
+.main1{
+    background:  url('img/cosmos.jpg');
+    height: calc(100vh - 86px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.catalog{
+    background-color: #344B61;
+    display: flex;
+    
+    flex-direction: column;
+    align-items: center;
+    color:#ffffff
+}
+
+.item{
+ display: flex;
+ width: 70%;
+ justify-content: space-between;
+ align-items: center;
+ margin-bottom: 50px;
+
+}
+
+.text1{
+    width: 330px;
+    background-color: #62819d;
+    padding: 51px 18px;
+    border-radius: 50px;
+   
+}
+.text1 span{
+    font-size: 30px;
+}
+
+.item_img{
+    border-radius: 50px;
+    box-shadow: 0px 0px 10px 5px white;
+}
+.title{
+    background-color: #62819d;
+    font-size: 32px;
+    padding: 10px;
+    border-radius: 20px;
+
+}
+/*
+.h2{
+position: absolute;
+
+padding: 10px;
+width: 200px;
+height: 80px;
+left: 108px;
+top: 900px;
+border-radius:50%;
+background: #5c67a4;
+
+}
+
+.link1{
+    text-align: center;
+}
+
+.IMG1{
+    position: absolute;
+    width: 399px;
+    height: 399px;
+    left: 249px;
+    top: 100px;
+    background: url(image.png);
+    border: solid 50px #5c67a4;
+
+}
+
+.text1{
+margin-top: 0px;
+padding: 18px 31px;
+position: absolute;
+width: 330px;
+height: 497px;
+left: 1131px;
+top: 100px;
+} */
