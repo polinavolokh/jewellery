@@ -200,6 +200,12 @@ nav{
     color: white;
 }
 
+.imgbg{
+    background-image: url(img/cosmos.jpg);
+    background-size: cover;
+    
+}
+
 footer{
     display:flex;
     justify-content: space-between;
