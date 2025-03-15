@@ -43,32 +43,32 @@ nav{
 
 .neck1{
     position: absolute;
-    bottom: 400px;
-    left: 300px;   
+    bottom: 200px;
+    left: 15%;   
 }
 
 .neck2{
     position: absolute;
-    bottom: 400px;
-    left: 600px;   
+    bottom: 100px;
+    left: 40%;   
 }
 
 .neck3{
     position: absolute;
-    bottom: 400px;
-    left: 900px;  
+    bottom: 100px;
+    right: 40%;  
 }
 
 .neck4{
     position: absolute;
-    bottom: 400px;
-    left: 1200px;
+    bottom: 200px;
+    right: 15%;
 }
 
 .neck5{
     position: absolute;
     bottom: 500px;
-    left: 1400px;
+    right: 0px;
 }
 
 .text0{
