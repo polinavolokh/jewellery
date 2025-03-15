@@ -10,7 +10,7 @@ body{
 
 header{
     display: flex;
-    background-color: #484a8e;
+    background-color: #394a6f    ;
     justify-content: space-between;
     align-items: center;
     padding-right: 47px;
@@ -124,7 +124,7 @@ nav{
 }
 
 .catalog{
-    background-color: #344B61;
+    background-color:#7c8aa7;
     display: flex;
     
     flex-direction: column;
@@ -232,4 +232,8 @@ footer{
     display: flex;
     flex-direction: column;
     gap: 10px;
+}
+
+footer{
+    background-color: #555f78;
 }
