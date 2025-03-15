@@ -35,6 +35,7 @@ nav{
     padding-left: 10px;
 }
 
+
 .neck{
     position: absolute;
     bottom: 500px;
@@ -197,4 +198,32 @@ nav{
 }
 .mb-3{
     color: white;
+}
+
+footer{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    font-family: 'Playfair Display';
+
+
+}
+
+.foot_text{
+    width: 40%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size:30px;
+
+}
+.b{
+    font-weight: 700;
+}
+
+.footer_btns{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
